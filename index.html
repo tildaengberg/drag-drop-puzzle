@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Photo Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Photo Puzzle Game</h1>
+        <p>Moves: <span id="moves">0</span></p>
+        <p>Time: <span id="time"></span></p>
+      </div>
+      <div class="boards">
+        <div class="heading1">
+          <h3>Shuffled board</h3>
+        </div>
+        <div class="heading2">
+          <h3>Drag pices here</h3>
+        </div>
+        <div class="rackContainer" draggable="true"></div>
+        <div class="boardContainer" draggable="true"></div>
+      </div>
+      <div class="footer">
+        <button id="restart" class="button">Restart</button>
+      </div>
+    </div>
+  </body>
+
+</html>
