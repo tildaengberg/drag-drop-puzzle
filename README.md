@@ -9,4 +9,4 @@ Considering that the estimated time to spend on the exercise was three hours, I 
 I chose to focus on a simple and plain design. Another thing I chose was that the player sees the number of moves and time. After the puzzle is solved, the user gets a "confirm box" with the number of moves and the time it took. The last thing i did at the end was to make it responsive for mobile devices. 
 
 ### Facit image
-![Full Image](full-image.jpeg)
+![Full Image](images/full-image.jpeg)
