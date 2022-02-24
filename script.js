@@ -85,9 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Listner for every move of pices
   function addEventListeners() {
 
-    const dragListItems = document.querySelectorAll('img');
+    const draggableCards = document.querySelectorAll('img');
 
-    dragListItems.forEach(item => {
+    draggableCards.forEach(item => {
 
       // Drag start
       item.addEventListener('dragstart', function dragStart(event) {
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.target == item) {
           dropID = this.getAttribute('data-id');
 
-          dragListItems[dropID].setAttribute('src', cardArray[draggedID].img);
-          dragListItems[draggedID].setAttribute('src', cardArray[dropID].img);
+          draggableCards[dropID].setAttribute('src', cardArray[draggedID].img);
+          draggableCards[draggedID].setAttribute('src', cardArray[dropID].img);
 
           [cardArray[draggedID], cardArray[dropID]] = [cardArray[dropID], cardArray[draggedID]];
 
