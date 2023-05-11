@@ -1,12 +1,13 @@
-# Aftonbladet-puzzle
+# Drag and drop puzzle
 
-### Process
-I thought the task was fun to implement because I have not used drag and drop so much before. An important decision I made at the beginning of the implementation was to use blank pictures that change places with the puzzle pieces. It was advantageous in a way because each place gets a unique ID that is easy to keep track of. However, there may be a better and more time-efficient way to do it. In retrospect, when I look at the code, I have thought a lot about filling an array with 12 blank images. It could have been done in a different way, but as I said, it became easier to implement.
+## Objectives
+The objective of the game is to arrange a set of jumbled tiles to form a complete image. The game has a simple user interface that allows the player to drag and drop the tiles into the correct position.
 
-Considering that the estimated time to spend on the exercise was three hours, I am satisfied with the result overall. It took about three hours to get everything to work but then I putted some time into styling and small features.
+## Functionally
+The game randomly shuffles the tiles on the game board every time it is played. It also keeps track of the number of moves and time taken to complete the puzzle. Once the player successfully arranges the tiles in the correct order, a congratulatory message is displayed, along with the number of moves and time taken. Players can restart the game by clicking the "restart" button. The code then defines several functions, including a function to randomize the board and set it up by adding the cards to the rack and board containers. The code also includes a function to check if the puzzle is solved, a function to display the time taken, and event listener functions for each move of the pieces.
 
-### Foucus area
-I chose to focus on a simple and plain design. Another thing I chose was that the player sees the number of moves and time. After the puzzle is solved, the user gets a "confirm box" with the number of moves and the time it took. The last thing i did at the end was to make it responsive for mobile devices. 
+## How to use
+Clone the repo and open up index.html.
 
-### Facit image
-![Full Image](images/full-image.jpeg)
+### Preview
+![puzzle1](https://github.com/tildaengberg/drag-drop-puzzle/assets/72296260/445a2e88-be9d-4371-8e2a-8245b58c5137)
